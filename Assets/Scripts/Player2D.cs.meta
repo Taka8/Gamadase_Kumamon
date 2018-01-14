@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 3a6b1a5fcbddb5943a0d6b568e7cd19f
+timeCreated: 1510478136
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - groundChecker: {instanceID: 0}
+  - offset: {instanceID: 0}
+  - Temari: {fileID: 1000013312921166, guid: db79bbf69ecc094479063de1f76ac1cf, type: 2}
+  - meshObject: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - myRigidbody2D: {instanceID: 0}
+  - jumpSE: {fileID: 8300000, guid: 179b0bb675ec7164a912562b46c6f6cb, type: 3}
+  - getCoinSE: {fileID: 8300000, guid: 7aac11d64ffdc514f85b519cb42cf679, type: 3}
+  - swingSE: {fileID: 8300000, guid: 1027e857eee0ff24980ea53f9888c283, type: 3}
+  - weaponChangeSE: {fileID: 8300000, guid: c1685d8ea4c626c42861520b839f6bcf, type: 3}
+  - damageSE: {fileID: 8300000, guid: 3615b567bed5cce47b17d984a96b5c5d, type: 3}
+  - deadSE: {fileID: 8300000, guid: e6d3916aa57e6c645b43bbbc2dbe3046, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

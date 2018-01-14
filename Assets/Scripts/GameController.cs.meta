@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 136f33824c0cb6440853878444fc959f
+timeCreated: 1510472544
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - coinPrefab: {fileID: 1000010717627158, guid: 8bdef5f54f28ea7419f58a0e7f7c4690,
+      type: 2}
+  - timeLabel: {instanceID: 0}
+  - clearClip: {fileID: 8300000, guid: e50f9d00bcb26cb4ebae9bbd02b3e741, type: 3}
+  - Player2WaitLabel: {instanceID: 0}
+  - Player2Label: {instanceID: 0}
+  - YenLabel1: {instanceID: 0}
+  - YenLabel2: {instanceID: 0}
+  - ClearMessage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

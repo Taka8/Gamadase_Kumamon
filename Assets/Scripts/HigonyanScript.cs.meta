@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 838328e90cebf3a4191699564ab0003c
+timeCreated: 1510717076
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - deadSE: {fileID: 8300000, guid: 40c54c908ba299a4abaf1c0f59fe977d, type: 3}
+  - hipRigidbody: {instanceID: 0}
+  - myCollider: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
