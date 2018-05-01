@@ -851,6 +851,7 @@ Mesh:
     firstByte: 0
     indexCount: 54
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 36
     localAABB:
@@ -868,6 +869,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200040005000600040007000500080009000a0008000b0009000c000d000e000c000f000d00100011001200100013001100140015001600140017001500180019001a0018001b0019001c001d001e001c001f001d00200021002200200023002100
   m_Skin: []
   m_VertexData:
@@ -2204,6 +2206,7 @@ Mesh:
     firstByte: 0
     indexCount: 6
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 4
     localAABB:
@@ -2221,6 +2224,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200
   m_Skin: []
   m_VertexData:
@@ -2854,6 +2858,7 @@ Mesh:
     firstByte: 0
     indexCount: 48
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 28
     localAABB:
@@ -2871,6 +2876,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 0000010002000000030001000400020001000400050002000600070008000600090007000a000b000c000a000d000b000e00000002000e000f000000100011001200100013001100140015001600140017001500180019001a0018001b001900
   m_Skin: []
   m_VertexData:
@@ -2987,6 +2993,7 @@ Mesh:
     firstByte: 0
     indexCount: 102
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 68
     localAABB:
@@ -3004,6 +3011,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200040005000600040007000500080009000a0008000b0009000c000d000e000c000f000d00100011001200100013001100140015001600140017001500180019001a0018001b0019001c001d001e001c001f001d00200021002200200023002100240025002600240027002500280029002a0028002b0029002c002d002e002c002f002d00300031003200300033003100340035003600340037003500380039003a0038003b0039003c003d003e003c003f003d00400041004200400043004100
   m_Skin: []
   m_VertexData:
@@ -3435,6 +3443,7 @@ Mesh:
     firstByte: 0
     indexCount: 6
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 4
     localAABB:
@@ -3452,6 +3461,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200
   m_Skin: []
   m_VertexData:
@@ -6131,6 +6141,7 @@ Mesh:
     firstByte: 0
     indexCount: 24
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 16
     localAABB:
@@ -6148,6 +6159,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200040005000600040007000500080009000a0008000b0009000c000d000e000c000f000d00
   m_Skin: []
   m_VertexData:
@@ -6536,6 +6548,7 @@ Mesh:
     firstByte: 0
     indexCount: 24
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 16
     localAABB:
@@ -6553,6 +6566,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200040005000600040007000500080009000a0008000b0009000c000d000e000c000f000d00
   m_Skin: []
   m_VertexData:
@@ -7416,6 +7430,7 @@ Mesh:
     firstByte: 0
     indexCount: 6
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 4
     localAABB:
@@ -7433,6 +7448,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200
   m_Skin: []
   m_VertexData:
@@ -8073,6 +8089,7 @@ Mesh:
     firstByte: 0
     indexCount: 18
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 12
     localAABB:
@@ -8090,6 +8107,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200040005000600040007000500080009000a0008000b000900
   m_Skin: []
   m_VertexData:
@@ -8201,6 +8219,7 @@ Mesh:
     firstByte: 0
     indexCount: 30
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 20
     localAABB:
@@ -8218,6 +8237,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200040005000600040007000500080009000a0008000b0009000c000d000e000c000f000d00100011001200100013001100
   m_Skin: []
   m_VertexData:
@@ -15092,6 +15112,7 @@ Mesh:
     firstByte: 0
     indexCount: 18
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 12
     localAABB:
@@ -15109,6 +15130,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200040005000600040007000500080009000a0008000b000900
   m_Skin: []
   m_VertexData:
@@ -15220,6 +15242,7 @@ Mesh:
     firstByte: 0
     indexCount: 6
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 4
     localAABB:
@@ -15237,6 +15260,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200
   m_Skin: []
   m_VertexData:
@@ -15914,6 +15938,7 @@ Mesh:
     firstByte: 0
     indexCount: 42
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 28
     localAABB:
@@ -15931,6 +15956,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200040005000600040007000500080009000a0008000b0009000c000d000e000c000f000d00100011001200100013001100140015001600140017001500180019001a0018001b001900
   m_Skin: []
   m_VertexData:
@@ -16932,6 +16958,7 @@ Mesh:
     firstByte: 0
     indexCount: 66
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 22
     localAABB:
@@ -16949,6 +16976,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 00000100020001000300020004000000020004000500000006000200030006000700020007000400020007000800040009000400080009000a0004000b00070006000b000c0007000d000c000b000d000e000c000f000e000d000f0010000e0011000c000e00110012000c0013000e001000130011000e00140012001100140015001200
   m_Skin: []
   m_VertexData:
@@ -17507,6 +17535,7 @@ Mesh:
     firstByte: 0
     indexCount: 480
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 180
     localAABB:
@@ -17524,6 +17553,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 0000010002000000030001000400050006000400070005000800070004000800090007000a00040006000a000b0004000c000b000a000c000d000b000e000b000d000e000f000b0010000d000c00100011000d0011000e000d00110012000e0013000e001200130014000e001500120011001500160012001700110010001700150011001800160015001800190016001a00150017001a00180015001b001c001d001b001e001c001f001e001b001f0020001e0021001b001d00210022001b0022001f001b00220023001f00240021001d0024002500210026002200210026002700220027002300220027002800230029002800270029002a0028002b002a0029002b002c002a002d002b0029002d002e002b002f002b002e002f0030002b0030002c002b00300031002c0032002f002e00320033002f0034002f003300340035002f00360034003300360037003400380030002f0038003900300039003100300039003a0031003b003c003d003b003e003c003e003f003c003e0040003f0041004200430041004400420044004500420044004600450047004800490047004a0048004b00490048004b004c0049004d0048004a004d004e0048004f004a0047004f0050004a0051004e004d00510052004e0053004e005200530054004e005500530052005500560053005700520051005700550052005800560055005800590056005a00550057005a00580055005b005a0057005b005c005a005d005c005b005d005e005c0051005b00570051005f005b005f005d005b005f0060005d0061005d006000610062005d0062005e005d00620063005e0064006200610064006500620065006300620065006600630067006400610067006800640069006800670069006a0068006b006c006d006b006e006c006f00640068006f0070006400710066006500710072006600730070006f00730074007000750070007400750071007000760071007500760072007100770076007500770078007600790073006f0079007a0073007b0073007a007b007c0073007d007e007f007d0080007e0081007d007f00810082007d0083007d008200830084007d00840080007d008400850080008600830082008600870083008800830087008800890083008a008b008c008a008d008b008e008f0090008e0091008f009200930094009200950093009600970098009600990097009a009b009c009a009d009b009e009f00a0009e00a1009f00a200a300a400a200a500a300a600a700a800a600a900a700aa00ab00ac00aa00ad00ab00ae00af00b000ae00b100af00b200b000b300b200ae00b000
   m_Skin: []
   m_VertexData:
@@ -17652,9 +17682,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Convex: 0
-  m_InflateMesh: 0
+  m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 1703186968}
 --- !u!114 &1160425979
@@ -19459,9 +19489,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
+  serializedVersion: 3
   m_Convex: 0
-  m_InflateMesh: 0
+  m_CookingOptions: 14
   m_SkinWidth: 0.01
   m_Mesh: {fileID: 273745568}
 --- !u!114 &1275441338
@@ -20471,6 +20501,7 @@ Mesh:
     firstByte: 0
     indexCount: 126
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 54
     localAABB:
@@ -20488,6 +20519,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 00000100020001000300020004000000020004000500000006000400020006000700040008000200030008000600020009000a000b0009000c000a000d00070006000d000e0007000f00100011000f0012001000130004000700130014000400150007000e00150013000700160015000e00160017001500180019001a0018001b0019001c00140013001c001d0014001e00130015001e001c0013001f00150017001f001e0015002000210022002000230021002400220025002400200022002600270028002600290027002a0028002b002a00260028002c002d002e002c002f002d0030002e00310030002c002e00320033003400320035003300
   m_Skin: []
   m_VertexData:
@@ -20655,6 +20687,7 @@ Mesh:
     firstByte: 0
     indexCount: 66
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 22
     localAABB:
@@ -20672,6 +20705,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 00000100020001000300020004000000020004000500000006000200030006000700020007000400020007000800040009000400080009000a0004000b00070006000b000c0007000d000c000b000d000e000c000f000e000d000f0010000e0011000c000e00110012000c0013000e001000130011000e00140012001100140015001200
   m_Skin: []
   m_VertexData:
@@ -21073,6 +21107,7 @@ Mesh:
     firstByte: 0
     indexCount: 6
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 4
     localAABB:
@@ -21090,6 +21125,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200
   m_Skin: []
   m_VertexData:
@@ -21578,6 +21614,7 @@ Mesh:
     firstByte: 0
     indexCount: 60
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 34
     localAABB:
@@ -21595,6 +21632,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 0000010002000100030002000400020003000400050002000600050004000600070005000800020005000800090002000a000b000c000a000d000b000e000f0010000e0011000f001200130014001200150013001600170018001600190017001a001b001c001a001d001b001e001f0020001e0021001f00
   m_Skin: []
   m_VertexData:
@@ -22652,6 +22690,7 @@ Mesh:
     firstByte: 0
     indexCount: 6
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 4
     localAABB:
@@ -22669,6 +22708,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200
   m_Skin: []
   m_VertexData:
@@ -24236,6 +24276,7 @@ Mesh:
     firstByte: 0
     indexCount: 24
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 16
     localAABB:
@@ -24253,6 +24294,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200040005000600040007000500080009000a0008000b0009000c000d000e000c000f000d00
   m_Skin: []
   m_VertexData:
@@ -24451,6 +24493,7 @@ Mesh:
     firstByte: 0
     indexCount: 24
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 16
     localAABB:
@@ -24468,6 +24511,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200040005000600040007000500080009000a0008000b0009000c000d000e000c000f000d00
   m_Skin: []
   m_VertexData:
@@ -26262,6 +26306,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 1
   m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
@@ -26375,6 +26420,7 @@ Camera:
   m_TargetEye: 3
   m_HDR: 0
   m_AllowMSAA: 0
+  m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 0
   m_StereoConvergence: 10
@@ -28322,6 +28368,7 @@ Mesh:
     firstByte: 0
     indexCount: 12
     topology: 0
+    baseVertex: 0
     firstVertex: 0
     vertexCount: 8
     localAABB:
@@ -28339,6 +28386,7 @@ Mesh:
   m_IsReadable: 1
   m_KeepVertices: 1
   m_KeepIndices: 1
+  m_IndexFormat: 0
   m_IndexBuffer: 000001000200010003000200040005000600040007000500
   m_Skin: []
   m_VertexData:

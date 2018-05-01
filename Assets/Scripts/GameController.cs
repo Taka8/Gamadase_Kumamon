@@ -10,7 +10,7 @@ public class GameController : SingletonMonoBehaviour<GameController>
 
     bool returnTitleFlag;
 
-    private Player2D[] players = new Player2D[4];
+    [SerializeField]private Player2D[] players = new Player2D[4];
     public Player2D[] Players { get { return players; } }
 
     [Header("Player")]
@@ -33,6 +33,8 @@ public class GameController : SingletonMonoBehaviour<GameController>
 
     public float ScreenLeft { get { return screenLeft; } }
     public float ScreenRight { get { return screenRight; } }
+
+    public bool isOver = false;
 
     private IEnumerator GoalCoroutine(Player2D player)
     {
@@ -126,7 +128,7 @@ public class GameController : SingletonMonoBehaviour<GameController>
 
     }
 
-    bool CheckPlayersAlive()
+    public bool CheckPlayersAlive()
     {
 
         foreach (Player2D player in players)

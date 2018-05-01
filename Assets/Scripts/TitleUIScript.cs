@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
 using System.Collections;
 
 public class TitleUIScript : MonoBehaviour
@@ -48,12 +47,16 @@ public class TitleUIScript : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// ステージのロードメソッド（※Buttonコンポーネントから使用する）
+    /// </summary>
+    /// <param name="sceneBuildeIndex">読み込むシーンの番号（Build Settings参照）</param>
     public void LoadStage(int sceneBuildeIndex)
     {
 
         foreach (Button b in buttons)
         {
-            Destroy(b);
+            b.interactable = false;
         }
 
         StartCoroutine(LoadCoroutine(sceneBuildeIndex));
@@ -64,6 +67,10 @@ public class TitleUIScript : MonoBehaviour
     {
 
         yield return null;
+
+        // タイトルオブジェクトの表示と非表示
+        InitialObject.SetActive(true);
+        StageSelectObject.SetActive(false);
 
         // フェードイン
         FadeManager.Instance.SetAlfa(1f);
@@ -84,7 +91,7 @@ public class TitleUIScript : MonoBehaviour
 
                 if (Input.GetButton("Submit"))
                 {
-                    transitionSelect();      // ステージセレクトへ
+                    TransitionSelect();      // ステージセレクトへ
                 }
 
                 break;
@@ -93,7 +100,7 @@ public class TitleUIScript : MonoBehaviour
 
                 if (Input.GetButton("Cancel"))
                 {
-                    transitionTitle();      // タイトルへ
+                    TransitionTitle();      // タイトルへ
                 }
 
                 break;
@@ -103,7 +110,7 @@ public class TitleUIScript : MonoBehaviour
                 break;
 
             default:
-                transitionTitle();
+                TransitionTitle();
                 break;
 
         }
@@ -113,7 +120,7 @@ public class TitleUIScript : MonoBehaviour
 
     }
 
-    void transitionTitle()
+    void TransitionTitle()
     {
 
         StageSelectObject.SetActive(false);     // StageSelectを非表示にする
@@ -124,7 +131,7 @@ public class TitleUIScript : MonoBehaviour
 
     }
 
-    void transitionSelect()
+    void TransitionSelect()
     {
 
         InitialObject.SetActive(false);         // Titleを非表示にする

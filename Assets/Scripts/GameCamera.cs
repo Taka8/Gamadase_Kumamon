@@ -10,51 +10,64 @@ public class GameCamera : MonoBehaviour
 
     [SerializeField] float maxDistanceDelta = 1f;
 
-    Transform mainCamTransform;
+    Transform mainCamTransform;                                 // メインカメラのトランスフォーム
 
     void Start()
     {
-
+        // メインカメラのトランスフォームを保持
         mainCamTransform = Camera.main.transform;
-
     }
 
+    // カメラの移動はすべてLateUpdaateで行うのが好ましい
     void LateUpdate()
     {
 
-        Vector3 targetPos = GetPosAmongPlayers();
+        // プレーヤが存在すれば移動
+        if (GameController.Instance.CheckPlayersAlive())
+        {
+            Vector3 targetPos = GetDeltaPlayerPos();
+            targetPos += offset;
+            targetPos.Set(Mathf.Clamp(targetPos.x, posMin.x, posMax.x), Mathf.Clamp(targetPos.y, posMin.y, posMax.y), targetPos.z);
+            mainCamTransform.position = Vector3.MoveTowards(mainCamTransform.position, targetPos, maxDistanceDelta);
+        }
+        // プレーヤが存在しなければ移動しない
+        else
+        {
 
-        targetPos += offset;
-
-        targetPos.Set(Mathf.Clamp(targetPos.x, posMin.x, posMax.x), Mathf.Clamp(targetPos.y, posMin.y, posMax.y), targetPos.z);
-
-        mainCamTransform.position = Vector3.MoveTowards(mainCamTransform.position, targetPos, maxDistanceDelta);
-
+        }
     }
 
-    Vector2 GetPosAmongPlayers()
+    Vector2 GetDeltaPlayerPos()
     {
+
         Vector2 targetPos = Vector2.zero;
-        int count = 0;
+
+        float minX, maxX, minY, maxY;
+
+        maxX = maxY = float.NegativeInfinity;
+        minX = minY = float.PositiveInfinity;
 
         foreach (Player2D p in GameController.Instance.Players)
         {
 
             if (p == null) continue;
-            
-            count++;
 
-            targetPos.x += p.transform.position.x;
-            targetPos.y += p.transform.position.y;
+            float x = p.transform.position.x;
+            minX = Mathf.Min(minX, x);
+            maxX = Mathf.Max(maxX, x);
+
+            float y = p.transform.position.y;
+            minY = Mathf.Min(minY, y);
+            maxY = Mathf.Max(maxY, y);
         }
-        
-        if (count == 0) return mainCamTransform.position;
 
-        targetPos /= count;
-        
+
+        targetPos.Set(minX + maxX, minY + maxY);
+        targetPos /= 2;
+
         return targetPos;
     }
-    
+
     void OnDrawGizmosSelected()
     {
 

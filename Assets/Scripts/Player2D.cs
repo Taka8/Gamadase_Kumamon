@@ -343,6 +343,7 @@ public class Player2D : Character2D
         // スティックの加減をanimetorに渡す
         animator.SetFloat("Speed", Mathf.Abs(moveDirection));
 
+        // タイマーが 0 なら死亡
         if (TimeManager.Instance.CurrentTime <= 0) Dead();
 
     }
@@ -440,18 +441,14 @@ public class Player2D : Character2D
 
     private void Dead()
     {
-        // canMove = false;
-        // moveDirection = 0;
 
-        // animator.enabled = false;
-
-        SetVelocityZeroAll(rigidbodies);
+        // SetVelocityZeroAll(rigidbodies);
 
         offset.parent = null;
         Destroy(gameObject);
 
         SetIsKinematicAll(false, rigidbodies);
-
+        
         SoundManager.Instance.PlaySe(deadSE);
 
     }
